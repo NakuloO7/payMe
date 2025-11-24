@@ -2,10 +2,13 @@
   "name": "@repo/store",
   "version": "1.0.0",
   "private": true,
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
   "dependencies": {
-    "recoil": "^0.7.7"
+    "jotai": "^2.9.0"
   },
   "exports": {
-    "./balance": "./src/hooks/useBalance"
+    "./balance": "./src/hooks/useBalance.ts"
   }
 }
